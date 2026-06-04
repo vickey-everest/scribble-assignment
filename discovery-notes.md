@@ -14,8 +14,8 @@
 
 ## Assumptions
 
-1. Deterministic word selection = index by participant count mod word list length (stable, reproducible)
-2. Drawer = first participant (creator/host); single round, no rotation
+1. Deterministic word selection = `STARTER_WORDS[participantCount % STARTER_WORDS.length]`
+2. Drawer = first participant (`room.participants[0]`); single round, no rotation
 3. Polling via `setInterval` in `useEffect`; cleanup on unmount
 4. Drawing sync via base64 `<canvas>.toDataURL()` stored in room state, polled like guesses
 5. "Restart" = clear game state on backend, keep participants, return to lobby status
