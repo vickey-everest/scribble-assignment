@@ -1,6 +1,6 @@
 # Reflection: Scribble Drawing Game
 
-**Author**: Vickey (karnan.796@gmail.com)
+**Author**: Vickey (vigneshwaran.natarajan@everest.engineering)
 **Role**: Fullstack Engineer
 
 ---

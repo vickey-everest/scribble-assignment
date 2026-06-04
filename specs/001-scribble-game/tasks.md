@@ -134,7 +134,7 @@
 - [X] T070 Run full test suite — `cd backend && npm test` (≥18 pass) then `cd frontend && npm test` (≥7 pass); fix any failures before build check
 - [X] T071 Run full build check — `cd backend && npm run build` then `cd frontend && npm run build`; resolve any TypeScript errors
 - [X] T072 Commit final state — `git add REFLECTION.md && git commit -m "docs: add reflection report"` then final build-fix commit if needed
-- [X] T073 Open PR — push branch; open PR against `main` on fork; include email (`karnan.796@gmail.com`), role, and summary per PR template
+- [X] T073 Open PR — push branch; open PR against `main` on fork; include email (`vigneshwaran.natarajan@everest.engineering`), role, and summary per PR template
 
 ---
 
