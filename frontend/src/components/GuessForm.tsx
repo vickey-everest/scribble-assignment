@@ -2,7 +2,7 @@ import { useState } from "react";
 
 interface GuessFormProps {
   disabled?: boolean;
-  onSubmit?: (text: string) => Promise<void> | void;
+  onSubmit?: (text: string) => Promise<unknown> | void;
 }
 
 export function GuessForm({ disabled = false, onSubmit }: GuessFormProps) {
